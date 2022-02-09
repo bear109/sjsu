@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array1">
+        <item>Mask</item>
+        <item>Wet tissue</item>
+        <item>Earplug</item>
+        <item>A4 paper</item>
+        <item>Brush</item>
+    </string-array>
+</resources>

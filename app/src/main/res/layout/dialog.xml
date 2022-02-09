@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="#f8f7f3"
+    android:layout_marginHorizontal="20dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Buy Together!"
+        android:fontFamily="@font/noto_sans_bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+
+    <SearchView
+        android:id="@+id/selectArticle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:queryHint="Select article"
+        android:inputType="textAutoComplete"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/border_radius"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <SearchView
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false"
+            android:queryHint="amount"
+            android:inputType="textAutoComplete"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/border_radius"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/suggest"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sugget"
+            android:background="@drawable/button"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:fontFamily="@font/noto_sans_bold"
+            />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="cancel"
+            android:background="@drawable/button"
+            android:layout_margin="20dp"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="15dp"
+            android:fontFamily="@font/noto_sans_bold"/>
+    </LinearLayout>
+
+</LinearLayout>

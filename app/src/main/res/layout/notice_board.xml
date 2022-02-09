@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f8f7f3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#F8F7F3">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backbuttonexample">
+        </ImageButton>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/homenaje"
+        android:gravity="center"
+        android:layout_marginVertical="10dp"
+        android:text="Notice Board"
+        android:textSize="35dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text="Important Notice"
+        android:textSize="18dp"
+        android:textColor="#e53935"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <ImageButton
+        android:id="@+id/importantnotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/importantnotice"
+        android:background="#f8f7f3"
+        android:layout_marginVertical="5dp"
+        android:scaleType="fitStart"
+        android:layout_marginHorizontal="15dp"/>
+
+    <ImageButton
+        android:id="@+id/notice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notice1"
+        android:background="#f8f7f3"
+        android:scaleType="fitXY"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notice2"
+        android:background="#f8f7f3"
+        android:scaleType="fitXY"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notice3"
+        android:background="#f8f7f3"
+        android:scaleType="fitXY"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notice4"
+        android:background="#f8f7f3"
+        android:scaleType="fitXY"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notice5"
+        android:background="#f8f7f3"
+        android:scaleType="fitXY"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"/>
+
+
+</LinearLayout>

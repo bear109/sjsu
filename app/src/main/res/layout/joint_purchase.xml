@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f8f7f3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#F8F7F3">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backbuttonexample">
+        </ImageButton>
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/homenaje"
+        android:gravity="center"
+        android:layout_marginVertical="10dp"
+        android:text="Joint Purchase"
+        android:textSize="35dp"
+        android:textColor="@color/black"/>
+
+    <SearchView
+        android:id="@+id/purchaseSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search"
+        android:inputType="textAutoComplete"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/border_radius"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:fontFamily="@font/noto_sans"
+        android:text="Let's buy together!"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <GridView
+        android:id="@+id/articleGrid1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center" />
+
+
+    <Button
+        android:id="@+id/suggestButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="SUGGEST"
+        android:background="@drawable/button"
+        android:textColor="#ffffff"
+        android:layout_marginHorizontal="160dp"
+        android:elevation="20dp"
+        />
+
+
+
+
+</LinearLayout>
